@@ -1,21 +1,15 @@
 from setuptools import setup
 
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
-
-
 setup(
     name='universal-answer',
     packages=['universal-answer'],
-    version='1.0.2',
+    version='1.0.3',
     license='MIT',
     description='Useless package created for application packaging purpose',
-    long_description=long_description,
-    long_description_content_type='text/markdown',
     author='Steve De Jongh',
     author_email='dejongh.st@gmail.com',
     url='https://github.com/sdejongh/universal_answer',
-    download_url='https://github.com/sdejongh/universal_answer/raw/master/dist/universal-answer-1.0.2.tar.gz',
+    download_url='https://github.com/sdejongh/universal_answer/raw/master/dist/universal-answer-1.0.3.tar.gz',
     keywords=['h2g2', 'useless', 'dontuse'],
     install_requires=[],
     classifiers=[

@@ -1,4 +1,4 @@
 venv
 .idea
 universal-answer/__pycache__
-*.egg-info
+universal_answer.egg-info

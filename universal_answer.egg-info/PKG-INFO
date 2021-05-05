@@ -1,15 +1,16 @@
 Metadata-Version: 2.1
 Name: universal-answer
-Version: 1.0.2
+Version: 1.0.3
 Summary: Useless package created for application packaging purpose
 Home-page: https://github.com/sdejongh/universal_answer
 Author: Steve De Jongh
 Author-email: dejongh.st@gmail.com
 License: MIT
-Download-URL: https://github.com/sdejongh/universal_answer/raw/master/dist/universal-answer-1.0.2.tar.gz
+Download-URL: https://github.com/sdejongh/universal_answer/raw/master/dist/universal-answer-1.0.3.tar.gz
 Description: # Simple Useless Python Package
         
         Only used for application packaging test.
+        Don't use it ;-)
         
         ## Usage:
         ```
