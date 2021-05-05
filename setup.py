@@ -1,27 +1,32 @@
 from distutils.core import setup
 
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+
 setup(
-  name = 'Universal Answer',         # How you named your package folder (MyLib)
-  packages = ['universal_answer'],   # Chose the same as "name"
-  version = '1.0.0',      # Start with a small number and increase it with every change you make
-  license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'Useless package created for application packaging purpose',   # Give a short description about your library
-  author = 'Steve De Jongh',                   # Type in your name
-  author_email = 'dejongh.st@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/user/reponame',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/sdejongh/universal_answer/raw/master/dist/Universal%20Answer-1.0.0.tar.gz',    # I explain this later on
-  keywords = ['h2g2', 'useless', 'dontuse'],   # Keywords that define your package best
-  install_requires=[            # I get to this in a second
-      ],
-  classifiers=[
-    'Development Status :: 5 - Production/Stable',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
-    'Intended Audience :: Other Audience',      # Define that your audience are developers
-    'Topic :: Software Development :: Build Tools',
-    'License :: OSI Approved :: MIT License',   # Again, pick a license
-    'Programming Language :: Python :: 3',      #Specify which pyhton versions that you want to support
-    'Programming Language :: Python :: 3.6',
-    'Programming Language :: Python :: 3.7',
-    'Programming Language :: Python :: 3.8',
-    'Programming Language :: Python :: 3.9',
-  ],
+    name='universal-answer',
+    packages=['universal-answer'],
+    version='1.0.1',
+    license='MIT',
+    description='Useless package created for application packaging purpose',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
+    author='Steve De Jongh',
+    author_email='dejongh.st@gmail.com',
+    url='https://github.com/sdejongh/universal_answer',
+    download_url='https://github.com/sdejongh/universal_answer/raw/master/dist/universal-answer-1.0.1.tar.gz',
+    keywords=['h2g2', 'useless', 'dontuse'],
+    install_requires=[],
+    classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Other Audience',
+        'Topic :: Software Development :: Build Tools',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+    ],
 )
