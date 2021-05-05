@@ -1,0 +1,10 @@
+LICENCE.txt
+README.md
+setup.cfg
+setup.py
+universal-answer/__init__.py
+universal-answer/__main__.py
+universal_answer.egg-info/PKG-INFO
+universal_answer.egg-info/SOURCES.txt
+universal_answer.egg-info/dependency_links.txt
+universal_answer.egg-info/top_level.txt

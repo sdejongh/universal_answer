@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name='universal-answer',
     packages=['universal-answer'],
-    version='1.0.1',
+    version='1.0.2',
     license='MIT',
     description='Useless package created for application packaging purpose',
     long_description=long_description,
@@ -15,7 +15,7 @@ setup(
     author='Steve De Jongh',
     author_email='dejongh.st@gmail.com',
     url='https://github.com/sdejongh/universal_answer',
-    download_url='https://github.com/sdejongh/universal_answer/raw/master/dist/universal-answer-1.0.1.tar.gz',
+    download_url='https://github.com/sdejongh/universal_answer/raw/master/dist/universal-answer-1.0.2.tar.gz',
     keywords=['h2g2', 'useless', 'dontuse'],
     install_requires=[],
     classifiers=[
