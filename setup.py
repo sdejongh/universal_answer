@@ -3,13 +3,13 @@ from distutils.core import setup
 setup(
   name = 'Universal Answer',         # How you named your package folder (MyLib)
   packages = ['universal_answer'],   # Chose the same as "name"
-  version = '1.0',      # Start with a small number and increase it with every change you make
+  version = '1.0.0',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Useless package created for application packaging purpose',   # Give a short description about your library
   author = 'Steve De Jongh',                   # Type in your name
   author_email = 'dejongh.st@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/user/reponame',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/sdejongh/universal_answer/raw/master/dist/Universal%20Answer-1.0.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/sdejongh/universal_answer/raw/master/dist/Universal%20Answer-1.0.0.tar.gz',    # I explain this later on
   keywords = ['h2g2', 'useless', 'dontuse'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
       ],
